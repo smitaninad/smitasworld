@@ -15,6 +15,7 @@ buzz_terms = sample(buzz, 2)
 str= ' '.join([sample(adjectives), buzz_terms[0], sample(adverbs),sample(verbs), buzz_terms[1]])
 #print (str)
 def generate_buzz():
+    print ("Testing generator")
     buzz_terms = sample(buzz, 2)
     phrase = ' '.join([sample(adjectives), buzz_terms[0], sample(adverbs),
         sample(verbs), buzz_terms[1]])
